@@ -4,3 +4,5 @@ sacrebleu==1.5.1
 torchmetrics==0.7.0
 tensorboardX==2.1
 transformers==4.10.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
