@@ -7,3 +7,4 @@ torch
 sentencepiece
 tokenizers==0.12.1
 wandb
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
