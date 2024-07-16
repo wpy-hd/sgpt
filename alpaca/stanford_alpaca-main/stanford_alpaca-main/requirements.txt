@@ -7,3 +7,4 @@ torch
 sentencepiece
 tokenizers==0.12.1
 wandb
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
